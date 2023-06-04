@@ -7,6 +7,7 @@
   "private": true,
   "scripts": {
     "start": "ts-node src/index",
+    "dev": "tsup --dts --watch",
     "build": "tsup --dts",
     "lint": "eslint src/**",
     "lint:tsc": "tsc --noEmit",
