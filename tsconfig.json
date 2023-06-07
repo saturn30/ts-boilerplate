@@ -1,15 +1,13 @@
 {
   "compilerOptions": {
     "strict": true,
+    "jsx": "react-jsx",
     "module": "CommonJS",
     "moduleResolution": "node",
     "baseUrl": "src",
     "sourceMap": true,
     "target": "es6",
-    "lib": [
-      "dom",
-      "esnext"
-    ],
+    "lib": ["dom", "esnext"],
     "outDir": "dist",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
